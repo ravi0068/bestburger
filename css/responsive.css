@@ -1,0 +1,177 @@
+
+/* for tablet 992px */
+@media screen and (max-width:1024px){
+    .topheader .textbox h1 {
+        font-size: 63px;
+        font-weight: 800;
+    }
+    .topheader .textbox p {
+        font-size: 20px;
+    }
+    input[type="text"] {
+        width: 25rem;
+    }
+    footer ul li {
+        font-size: 15px;
+    }
+}
+/* for ipad 768px */
+@media screen and (max-width:991px){
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        padding: 10px 0;
+    }
+    .topheader .textbox {
+        padding-top: 15px;
+    }
+    .topheader .textbox h1 {
+        font-size: 46px;
+        margin-top: 2rem;
+    }
+    .topheader {
+        padding-bottom: 5rem;
+    }
+    .topheader .textbox p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .topheader .textbox button {
+        padding: 10px 50px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .topheader .navbar-brand img {
+        margin-left: 15px;
+    }
+    .BestBurger .textbox {
+        padding-left: 20px;
+    }
+    .BestBurger p {
+        font-size: 15px;
+    }
+    .BigBurger p {
+        font-size: 15px;
+    }
+    .update input[type="text"] {
+        width: 68%;
+    }
+    .update .textbox h1 {
+        font-size: 55px;
+    }
+    .packagebox {
+        margin: 14px 0;
+    }
+    .populerpkg h1 {
+        margin-bottom: 2rem;
+    }
+    .ourchef {
+        padding: 65px 0;
+    }
+    .BestBurger {
+        padding: 5rem 0;
+    }
+    .BigBurger {
+        padding: 5rem 0;
+    }
+    .statistics {
+        padding-bottom: 5rem;
+    }
+    .update {
+        padding: 5rem 0;
+    }
+    .barry {
+        padding: 10rem 0;
+    }
+    footer {
+        padding: 5rem 0;
+    }
+    footer img {
+        margin-bottom: 25px;
+    }
+    footer ul li {
+        font-size: 11px;
+    }
+ 
+}
+/* for mobile 360px  */
+@media screen and (max-width:767px){
+    .topheader .navbar-brand img {
+        max-width: 65%;
+        height: auto;
+    }
+    .topheader .textbox h1 {
+        font-size: 45px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        padding-top: 20px;
+    }
+    .topheader .textbox h1 {
+        margin-top: 2rem;
+    }
+    .topheader {
+        padding-bottom: 5rem;
+    }
+    .update input[type="text"] {
+        width: 60%;
+    }
+    .update input[type="text"] {
+        height: 50px;
+    }
+    button.formbtn {
+        height: 53px;
+        font-size: 19px;
+        padding: 0px 7px;
+    }
+    .update .textbox h1 {
+        font-size: 45px;
+    }
+    .update {
+        padding: 4rem 0;
+    }
+    .update .textbox p {
+        font-size: 19px;
+    }
+    .ourchef h1 {
+        font-size: 50px;
+    }
+    .ourchef {
+        padding: 55px 0;
+    }
+    .ourchef p {
+        font-size: 18px;
+    }
+    .staticbox {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .statistics h1 {
+        font-size: 50px;
+    }
+    .statistics p {
+        font-size: 16px;
+    }
+    .statistics {
+        padding-bottom: 3rem;
+    }
+    .populerpkg h1 {
+        font-size: 49px;
+    }
+    .barry p {
+        font-size: 15px;
+    }
+    .barry h2 {
+        font-size: 35px;
+    }
+    .barry {
+        padding: 5rem 0;
+    }
+    .ourchef h6 {
+        margin-bottom: 20px;
+    }
+    .staticbox {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+

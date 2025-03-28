@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Montserrat:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Archivo', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+  }
+  .topheader .navbar-brand img{
+        max-width: 30%;
+        height: auto;
+  }
+  .topheader {
+    background-image: url(../image/hero-bg.png);
+    position: relative;
+    padding-bottom: 8rem;
+}
+.topheader::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#000 , transparent , transparent , transparent);
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    padding: 20px 0;
+}
+
+.navbar-brand  {
+    width: 25%;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding-top: 30px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../image/bar.png);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: rgb(255 255 255);
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.topheader .textbox h1 {
+    font-size: 75px;
+    font-weight: 800;
+    margin-top: 5rem;
+}
+.topheader .textbox p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+.topheader .textbox button {
+    background-color: #F64A3C;
+    color: #ffffff;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 80px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.ourchef {
+    text-align: center;
+    color: #F64A3C;
+    background-image: url(../image/chef-bg.jpg);
+    background-position: bottom;
+    padding: 100px 0;
+}
+.ourchef h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.ourchef p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.ourchef img {
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.ourchef h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.BestBurger {
+    background-color: #F64A3C;
+    padding: 8rem 0;
+}
+.BestBurger .imgbox{
+    text-align: center;
+}
+/* .BestBurger .col-lg-6{
+    text-align: center;
+} */
+
+.BestBurger img {
+    border-radius: 100%;
+}
+.BestBurger .textbox{
+    padding-left: 40px;
+}
+.BestBurger h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-align: left;
+    margin: 30px 0;
+}
+.BestBurger p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.BestBurger button {
+    background-color: #ffffff;
+    color: #F64A3C;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.BigBurger {
+    background-image: url(../image/big-burger-bg.jpg);
+    padding: 50px 0;
+    color: #F64A3C;
+    padding: 8rem 0;
+}
+.BigBurger .imgbox{
+    text-align: center;
+}
+
+.BigBurger img {
+    border-radius: 100%;
+}
+.BigBurger  h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-align: left;
+    margin: 30px 0;
+}
+.BigBurger p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.BigBurger button{
+    background-color: #F64A3C;
+    color: #ffffff;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.statistics {
+    text-align: center;
+    background-color: #F64A3C;
+    color: #ffffff;
+    padding: 50px 0;
+    padding-bottom: 8rem;
+}
+.statistics h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+.statistics p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.staticbox {
+    border: 3px solid#ffffff;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 25px 0;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.staticbox h1 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.staticbox h3 {
+    font-weight: 700;
+}
+.populerpkg{
+    background-image: url(../image/popular-package-bg.jpg);
+    color: #F64A3C;
+    text-align: center;
+    padding: 50px 0;
+}
+.populerpkg h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 8rem;
+}
+.packagebox {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 0;
+}
+.packagebox h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+.packagebox img {
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+.packagebox p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.packagebox button {
+    padding: 10px 50px;
+    border: none;
+    background-color: #F64A3C;
+    color: #ffffff;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.barry {
+    background-image: url(../image/testimonial-bg.jpg);
+    color: #ffffff;
+    text-align: center;
+    padding: 15rem 0;
+    position: relative;
+}
+.barry::before{
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(246, 74, 60, 73%) ;
+}
+.barry .textbox{
+    position: relative;
+    z-index: 9;
+}
+.barry p {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.barry h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.update{
+    background-image: url(../image/form-bg.jpg);
+    text-align: center;
+    color: #F64A3C;
+    padding: 18rem 0;
+}
+.update .textbox h1 {
+    font-weight: 700;
+    font-size: 66px;
+    margin-bottom: 30px;
+}
+.update .textbox p {
+    font-size: 22px;
+    font-weight: 500;    
+    margin-bottom: 60px;
+}
+.update input[type="text"] {
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    height: 65px;
+    width: 45%;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+button.formbtn {
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    height: 65px;
+    color: #ffffff;
+    background-color: #F64A3C;
+    /* width: 12rem; */
+    font-size: 25px;
+    padding: 0px 20px;
+}
+footer {
+    background-color: #222222;
+    padding: 10rem 0;
+    color: #ffffff;
+}
+footer h5 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+footer p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+footer img {
+    padding: 0px 2px;
+}
+footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+footer ul li{
+    line-height: 2;
+}
+
+
+

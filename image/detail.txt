@@ -1,0 +1,5 @@
+
+header-font{Poppins}
+heading-font{Archivo}
+paragraph-font{Montserrat}
+button-font{Montserrat}
